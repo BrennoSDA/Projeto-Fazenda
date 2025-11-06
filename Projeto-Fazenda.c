@@ -142,7 +142,7 @@ void inserir_plantacao(plantio *p, plantacao nova_cultura){
 
     // 1. Verificando se tem espaço para plantar
     if (verifica_plantio_cheio(*p) == 1){
-        printf("Nao foi possivel fazer o plantio, todos os terrenos estao ocupados!/n");
+        printf("Nao foi possivel fazer o plantio, todos os talhoes estao ocupados!/n");
         return;
     }
 
